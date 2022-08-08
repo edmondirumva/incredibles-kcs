@@ -1,0 +1,133 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+ }
+
+.header ul li a{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    
+
+}
+.container{
+    background: linear-gradient(to top, rgba(0,0,0,0.2)10%,rgba(0,0,0,0.2)5%),url(./images/school.jpg);
+    min-height: 100vh;
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}  
+.footer p {
+    font-size: 20px;
+}
+.footer th {
+    font-size: 24px;
+}
+.footer td {
+    font-size: 16px;
+}
+
+.header ul{
+    display: flex;
+    margin-left: 60%;
+    padding-top: 20px;
+    list-style-type: none;
+
+}  
+.header ul li a{
+    color: white;
+    margin-right: 30px;
+    list-style: none;
+
+
+}
+.home{
+    color: white;
+    margin-top: 14%;
+    margin-left: 10%;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 140px;
+    position: absolute;
+}
+.header{
+    display: flex;
+  
+    
+}
+.home .motto{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+
+}
+.content{
+    font-size: 24px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+}
+.home button{
+    height: 50px;
+    width: 200px;
+    margin-top: 100px;
+    background: #181D4D;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.footer{
+    background-color: #181D4D;
+  height: 300px;
+  margin-top: 3em;
+}
+.border {
+    height: 3px;
+    background-color: gray;
+    width: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25em;
+  /* justify-content: center; */
+}
+.fff {
+    display: flex;
+    flex-direction: column;
+}
+.fff img{
+    height: 50px;
+    width: 40px;
+    margin-left: 50px;
+    margin-top: 3em;
+}
+.fff p {
+    color: black;
+    margin-left: 5em;
+    margin-top: 1em;
+}
+table{
+    display: flex;
+ justify-content: center;
+ margin-top: -12em;
+}
+td{
+    padding: 10px;
+    color: white;
+}
+.table {
+    float: right;
+    margin-right: 10em;
+}
+.table td {
+    padding: 20px;
+}
