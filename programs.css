@@ -9,11 +9,11 @@
 .footer p {
     font-size: 20px;
 }
-.footer th {
-    font-size: 24px;
+.footer p {
+    font-size: 20px;
 }
-.footer td {
-    font-size: 16px;
+.footer th {
+    font-size: 28px;
 }
 
 .main{
@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-left: 5em;
+    margin-left: 8em;
 }
 
 .box1{
@@ -78,7 +78,7 @@ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIC
     width: 50%;
     flex-direction: column;
     justify-content: space-around;
-    margin-right: 4em;
+    margin-right: 6em;
 }
 .gigs img {
     width: 500px;
@@ -167,4 +167,13 @@ td{
     margin-top: 10px;
     margin-left: 140px;
     position: absolute;
+}
+.fa-twitter-square {
+    font-size: 2em;
+}
+.fa-facebook-square {
+    font-size: 2em;
+}
+.fa-envelope {
+    font-size: 2em;
 }

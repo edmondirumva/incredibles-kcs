@@ -125,6 +125,12 @@
   height: 350px;
   margin-top: 3em;
 }
+.footer p {
+    font-size: 20px;
+}
+.footer th {
+    font-size: 28px;
+}
 .border {
     height: 3px;
     background-color: gray;
@@ -176,4 +182,13 @@ nav.sticky {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.fa-twitter-square {
+    font-size: 2em;
+}
+.fa-facebook-square {
+    font-size: 2em;
+}
+.fa-envelope {
+    font-size: 2em;
 }
